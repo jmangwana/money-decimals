@@ -18,7 +18,7 @@ $(document).ready(function () {
         while (rgx.test(y)) {
             y = y.replace(rgx, '$1' + ',' + '$2');
         }
-        commaCounter++;
+        commaCounter + 1;
         return y + z;
     }
 
