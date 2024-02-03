@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // Currency Separator
-    var commaCounter = 10;
+    var commaCounter = 11;
 
     function numberSeparator(Number) {
         Number += '';
